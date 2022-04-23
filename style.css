@@ -1,0 +1,69 @@
+body{
+    background-color: #121212;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+section {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#intro h1{
+    color: aqua;
+}
+#intro p{
+    font-size: 25px;
+    opacity: 0.7;
+}
+#game{
+    display: none;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: none;
+}
+#number{
+    display: none;
+    position: absolute;
+    font-size: 300px;
+    color: red;
+}
+#plus{
+    position: absolute;
+    font-size: 600px;
+}
+#evaluation{
+    display: none;
+
+}
+#evaluation h1{
+    margin: 10px 0px;
+}
+#evaluation h1:nth-of-type(2){
+   margin-top: 50px;
+   margin-bottom: -20px;
+}
+#times , #average{
+  color: red;
+
+}
+#average{
+    font-size: 250px;
+}
+#times {
+    width: 400px;
+    text-align: center;
+}
+#info{
+    opacity: 0.5;
+    font-size: 20px;
+}
